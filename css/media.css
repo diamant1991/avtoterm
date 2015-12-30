@@ -5,14 +5,42 @@
 	.map{
 		width: 1200px;
 	}
+	
 }
 @media(max-width: 1229px){
 	.profit-img img{
 		width: 32px;
 		height: 32px;
 	}
+	.hidden-md{
+		display: none;
+	}
+	.catalog-block .fast-link{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 2;
+	}
+	.catalog-block .last-price,
+	.catalog-block .today-price{
+		float: none;
+	}
+	.catalog-block .catalog-item{
+		padding: 10px;
+		padding-bottom: 20px;
+	}
 	.contacts-block{
 		padding: 0 45px;
+	}
+	.catalog-block{
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+	.catalog-container{
+		margin-left: -10px;
+	}
+	.catalog-img{
+		height: 175px;
 	}
 	.center-content{
 		width: 660px;
@@ -74,6 +102,37 @@
 	.contacts-block{
 		padding: 0 20px;
 		height: auto;
+	}
+	.catalog-block{
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+	.catalog-container{
+		margin-left: -20px;
+	}
+	.catalog-block .catalog-item{
+		padding: 15px;
+		padding-bottom: 30px;
+	}
+	.catalog-block .add-basket{
+		width: 100%;
+	}
+	.catalog-img{
+		height: 130px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.catalog-block .name{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.catalog-block .last-price{
+		font-size: 14px;
+		font-family: 'roboto_black';
+		margin-bottom: 5px;
+	}
+	.catalog-block .today-price{
+		font-size: 24px;
 	}
 	.side-menu > ul > li.width-drop:after{
 		-webkit-transform: scale(0.6);
@@ -308,6 +367,9 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.catalog-img{
+		margin-bottom: 15px;
+	}
 	.detail-img,
 	.detail-news p{
 		margin-bottom: 10px;
@@ -449,6 +511,15 @@
 	.contacts-link{
 		margin-bottom: 0;
 	}
+	.catalog-block .add-basket{
+		font-size: 12px;
+		font-family: 'roboto_black';
+		letter-spacing: 0.5px;
+	}
+	.catalog-block .catalog-item{
+		padding: 10px;
+		padding-bottom: 20px;
+	}
 }
 @media(max-width: 550px){
 	.news-img{
@@ -459,5 +530,16 @@
 	}
 	.news-block{
 		padding-left: 0;
+	}
+	.catalog-block .name{
+		font-size: 14px;
+	}
+	.catalog-img{
+		padding-left: 0;
+		padding-right: 0;
+		height: 120px;
+	}
+	.catalog-block .today-price{
+		font-size: 18px;
 	}
 }
