@@ -244,7 +244,7 @@
 															<img src="images/news.jpg" alt="">
 														</a>
 													</li>
-													<li class="carousel-block">
+													<li class="carousel-block hidden-xs">
 														<a href="#" class="slideshow_pic">
 															<img src="images/card-img.png" alt="">
 														</a>
@@ -288,13 +288,19 @@
 												<div class="price clearfix">
 													<div class="last-price">3 100 руб.</div>
 													<div class="today-price">1 490 <span>руб.</span></div>
+													<a href="#" class="fast-link visible-md hidden-xs"></a>
 												</div>
 											</div>
 											<div class="right-block">
-												<div class="amount">
+												<div class="amount hidden-xs">
 													<a href="#" class="left"></a>
 													<input type="text" value="1">
 													<a href="#" class="right"></a>
+												</div>
+												<div class="mobile-amount visible-xs clearfix">
+													<a href="#" class="left">-</a>
+													<input type="text" value="1">
+													<a href="#" class="right">+</a>
 												</div>
 											</div>
 										</div>
@@ -330,6 +336,7 @@
   													<div class="today-price">
   														1 490 руб.
   													</div>
+  													<a href="#" class="fast-link visible-md hidden-xs"></a>
   												</div>
   												<div class="links clearfix">
 														<a href="#" class="add-basket hidden-xs">добавить в корзину</a>
@@ -355,6 +362,7 @@
   													<div class="today-price">
   														1 490 руб.
   													</div>
+  													<a href="#" class="fast-link visible-md hidden-xs"></a>
   												</div>
   												<div class="links clearfix">
 														<a href="#" class="add-basket hidden-xs">добавить в корзину</a>
@@ -380,6 +388,7 @@
   													<div class="today-price">
   														1 490 руб.
   													</div>
+  													<a href="#" class="fast-link visible-md hidden-xs"></a>
   												</div>
   												<div class="links clearfix">
 														<a href="#" class="add-basket hidden-xs">добавить в корзину</a>
@@ -405,6 +414,7 @@
   													<div class="today-price">
   														1 490 руб.
   													</div>
+  													<a href="#" class="fast-link visible-md hidden-xs"></a>
   												</div>
   												<div class="links clearfix">
 														<a href="#" class="add-basket hidden-xs">добавить в корзину</a>
@@ -430,6 +440,7 @@
   													<div class="today-price">
   														1 490 руб.
   													</div>
+  													<a href="#" class="fast-link visible-md hidden-xs"></a>
   												</div>
   												<div class="links clearfix">
 														<a href="#" class="add-basket hidden-xs">добавить в корзину</a>
@@ -439,7 +450,7 @@
   											</div>
   										</div>
   									</div>
-  									<a href="#" class="next-recom"></a>
+  									<a href="#" class="next-recom hidden-xs"></a>
 									</div>
 								</div>
 							</div>
@@ -575,9 +586,9 @@
 	  owlRecom.owlCarousel({
 	      items : 3, 
 	      itemsDesktop : [1000,3], 
-	      itemsDesktopSmall : [900,3],
-	      itemsTablet: [600,2], 
-	      itemsMobile : false 
+	      itemsDesktopSmall : [991,2],
+	      itemsTablet: [767,2], 
+	      itemsMobile : [400,2],
 	  });
  
 	  $(".next-recom").click(function(e){

@@ -5,13 +5,19 @@
 	.map{
 		width: 1200px;
 	}
-	
 }
 @media(max-width: 1229px){
 	.profit-img img{
 		width: 32px;
 		height: 32px;
 	}
+	.recom-item .fast-link{
+		position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+	}
+	  
 	.card-block{
 		width: 190px;
 	}
@@ -132,9 +138,23 @@
 	.detail-news p{
 		font-size: 12px;
 	}
+	.recommended-carousel{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 	.contacts-block{
 		padding: 0 20px;
 		height: auto;
+	}
+	.recommended-carousel .next-recom{
+		-webkit-transform: scale(0.65);
+		-ms-transform: scale(0.65);
+		-o-transform: scale(0.65);
+		transform: scale(0.65);
+		right: 0;
+	}
+	.recommended-carousel{
+		padding-right: 35px;
 	}
 	.catalog-block{
 		padding-left: 20px;
@@ -176,6 +196,26 @@
 	.contacts-block h4{
 		font-size: 14px;
 		font-family: 'roboto_black';
+	}
+	.card-link a{
+		height: 40px;
+		line-height: 44px;
+		font-size: 12px;
+	}
+	.card-info{
+		width: 100%;
+		padding-left: 0;
+	}
+	.price-product .today-price{
+		font-size: 24px;
+	}
+	.price-product .last-price{
+		padding-top: 4px;
+	}
+	.item-desc .title,
+	.recommended > .title{
+		font-size: 14px;
+		padding-bottom: 7px;
 	}
 	.contacts-block li{
 		font-size: 12px;
@@ -264,18 +304,42 @@
 	}
 	.side-menu > ul > li > ul > li > a{
 		font-size: 14px;
+		font-family: 'roboto_black';
 	}
 	.side-menu > ul > li > ul{
 		margin-top: 15px;
 		padding-left: 15px;
 	}
 	.side-menu > ul > li{
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 	.profit-block{
 		overflow: hidden;
 		width: 45px !important;
 		margin-left: 15px;
+	}
+	.large-img{
+		float: left;
+		width: 220px;
+		padding-right: 30px;
+	}
+	.thumbnail{
+		float: left;
+		width: 260px;
+	}
+	.card-block{
+		width: auto;
+		float: none;
+	}
+	.carousel-block{
+		float: left;
+		width: 120px;
+	}
+	.item-desc{
+		margin-bottom: 40px;
+	}
+	.side-menu > ul > li > ul > li{
+		margin-bottom: 15px;
 	}
 	.profit-container{
 		margin-left: -15px;
@@ -400,8 +464,70 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.recommended-carousel .item{
+		padding-right: 2px;
+		padding-left: 30px;
+	}
+	.price-product .title,
+	.price-product .last-price{
+		font-size: 14px;
+	}
+	.price-product .last-price{
+		font-family: 'roboto_black';
+	}
+	.price-product .title{
+		margin-bottom: 5px;
+	}
+	.card-block{
+		position: relative;
+		padding-right: 130px;
+	}
+	.thumbnail{
+		float: none;
+		position: absolute;
+		z-index: 2;
+		right: 0;
+		top: 0;
+		width: 130px;
+	}
+
+	.carousel-block{
+		float: none;
+		width: 100%;
+	}
+	.large-img{
+		height: 190px;
+		width: 100%;
+		float: none;
+	}
+	.price-product .today-price{
+		font-size: 18px;
+		font-family: 'roboto_medium';
+	}
+	.recommended-carousel{
+		padding-right: 2px;
+		margin-left: -30px;
+	}
+	.recom-item .name{
+		font-size: 14px;
+	}
+	.recom-item .recom-img{
+		height: 130px;
+	}
+	.recom-item .last-price{
+		font-size: 14px;
+		margin-bottom: 5px;
+		letter-spacing: 0.5px;
+	}
+	.recom-item .today-price{
+		font-size: 18px;
+	}
 	.catalog-img{
 		margin-bottom: 15px;
+	}
+	.recom-item .add-basket{
+		font-size: 12px;
+		font-family: 'roboto_black';
 	}
 	.detail-img,
 	.detail-news p{
@@ -574,5 +700,16 @@
 	}
 	.catalog-block .today-price{
 		font-size: 18px;
+	}
+	.card-link .add-basket{
+		float: none;
+		margin: auto;
+		margin-bottom: 10px;
+		width: 70%;
+	}
+	.card-link .one-click{
+		float: none;
+		margin: auto;
+		width: 70%;
 	}
 }

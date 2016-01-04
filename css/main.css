@@ -597,6 +597,9 @@ a {
   color: #404040;
   font-size: 16px;
 }
+.side-menu > ul > li > ul > li > a:hover {
+  color: #ff4c36;
+}
 .get-cons {
   margin: 30px 0;
 }
@@ -1070,6 +1073,7 @@ a {
 }
 .recom-item .price {
   margin-bottom: 15px;
+  position: relative;
 }
 .recom-item .name {
   text-align: center;
@@ -1325,4 +1329,109 @@ a {
   border: 0;
   -webkit-box-shadow: 0px 3px 0px 0px #d73f2d;
   box-shadow: 0px 3px 0px 0px #d73f2d;
+}
+.mobile-amount a {
+  display: block;
+  float: left;
+  width: 22px;
+  height: 30px;
+  text-align: center;
+  font-family: 'roboto_black';
+  font-size: 14px;
+  color: #868686;
+  line-height: 28px;
+  border: 1px solid #ddd;
+}
+.mobile-amount .left {
+  border-right: 0;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+.mobile-amount .right {
+  border-left: 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+.mobile-amount input[type="text"] {
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  outline: 0;
+  font-size: 14px;
+  font-family: 'roboto_black';
+  color: #ff4c36;
+  border: 1px solid #ddd;
+  float: left;
+}
+.cart-block {
+  float: left;
+  width: 860px;
+}
+.cart-block .title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'roboto_black';
+}
+.card-table table {
+  width: 100%;
+}
+.card-table thead {
+  font-size: 14px;
+  color: #868686;
+}
+.card-table thead td {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+.card-table tbody td {
+  vertical-align: middle;
+  height: 90px;
+  border-bottom: 1px solid #ddd;
+}
+.card-table tbody td:first-child {
+  width: 40px;
+}
+.card-table tbody td:nth-child(2) {
+  width: 310px;
+}
+.card-table tbody td:nth-child(3) {
+  width: 150px;
+}
+.card-table tbody td:nth-child(4) {
+  width: 130px;
+}
+.card-table tbody td:nth-child(5) {
+  width: 140px;
+}
+.card-table .cart-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cart-amount a {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.cart-amount .left {
+  border-right: 0;
+}
+.cart-amount .right {
+  border-left: 0;
+}
+.cart-amount input[type="text"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  text-align: center;
+  outline: 0;
+  float: left;
 }
