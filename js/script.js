@@ -28,4 +28,27 @@ $(document).ready(function() {
 		}
 
 	});
+
+	$('.menu-toggle').click(function(e) {
+		e.preventDefault();
+		if($('.mobile-menu').is(':hidden')){
+			$('.mobile-menu').slideDown(300);
+			$(this).addClass('active');
+		}
+		else{
+			$('.mobile-menu').slideUp(300);
+			$(this).removeClass('active');
+		}
+	});
+	$('.search-toggle').click(function(e) {
+		e.preventDefault();
+		if($('.mobile-search').is(':hidden')){
+			$('.mobile-search').slideDown(300);
+			$(this).addClass('active');
+		}
+		else{
+			$('.mobile-search').slideUp(300);
+			$(this).removeClass('active');
+		}
+	});
 });

@@ -17,7 +17,10 @@
     right: 0;
     z-index: 2;
 	}
-	  
+	.cart-block{
+		width: 660px;
+	}
+	
 	.card-block{
 		width: 190px;
 	}
@@ -138,6 +141,7 @@
 	.detail-news p{
 		font-size: 12px;
 	}
+
 	.recommended-carousel{
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -323,6 +327,93 @@
 		width: 220px;
 		padding-right: 30px;
 	}
+	.cart-block{
+		width: 490px;
+	}
+	.order-cart .price{
+		font-size: 30px;
+		font-family: 'roboto_medium';
+		margin-bottom: 15px;
+	}
+	.order-cart .red-link,
+	.order-cart .blue-link,
+	.cons-link{
+		height: 35px;
+		line-height: 39px;
+		font-size: 12px;
+	}
+	.order-cart .red-link,
+	.cons-link{
+		-webkit-box-shadow: 0px 2px 0px 0px #d73f2d;
+    box-shadow: 0px 2px 0px 0px #d73f2d;
+	}
+	.order-cart .blue-link{
+		-webkit-box-shadow: 0px 2px 0px 0px #1d3346;
+    box-shadow: 0px 2px 0px 0px #1d3346;
+    margin-bottom: 0;
+	}
+	.order-cart .price span{
+		font-size: 18px;
+		font-family: 'RobotoRegular';
+	}
+	.price-block{
+		width: 210px;
+		padding-top: 0;
+	}
+	.card-table .name,
+	.card-table .price,
+	.card-table .price span{
+		font-size: 14px;
+		font-family: 'roboto_black';
+	}
+
+	.card-table .number{
+		font-size: 14px;
+	}
+	.cart-amount input[type="text"]{
+		width: 30px;
+		height: 30px;
+	}
+	.cart-amount a{
+		width: 20px;
+		height: 30px;
+		line-height: 28px;
+		font-size: 14px;
+		font-family: 'roboto_black';
+	}
+	.card-table .del{
+		-webkit-transform: scale(0.6);
+		-ms-transform: scale(0.6);
+		-o-transform: scale(0.6);
+		transform: scale(0.6);
+	}
+	.total-sum{
+		font-size: 14px;
+	}
+	.total-sum .sum{
+		font-size: 30px;
+	}
+	.cart-block .title{
+		font-size: 24px;
+	}
+	.card-table tbody td{
+		height: 50px;
+	}
+	.total-sum .val{
+		font-size: 18px;
+		font-family: 'roboto_medium';
+	}
+	.card-table thead{
+		font-size: 12px;
+	}
+	.card-table thead td:nth-child(4),
+	.card-table thead td:nth-child(5){
+		padding-left: 10px;
+	}
+	.order-cart{
+		padding: 20px;
+		margin-bottom: 20px;
+	}
 	.thumbnail{
 		float: left;
 		width: 260px;
@@ -464,9 +555,55 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.order-cart{
+		float: right;
+		width: 165px;
+	}
+	.modal-dialog{
+		width: 90%;
+	}
+	.modal{
+		padding: 0 !important;
+	}
+	.input-block input[type="submit"]{
+		height: 50px;
+		font-size: 18px;
+	}
+	.modal .title{
+		font-size: 24px;
+	}
+	.modal .small-title{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.cons-link{
+		margin-top: 10px;
+		background: #dddddd;
+		color: #404040;
+		-webkit-box-shadow: 0px 2px 0px 0px #c2c2c2;
+		box-shadow: 0px 2px 0px 0px #c2c2c2;
+	}
+	.price-block,
+	.cart-block{
+		float: none;
+		width: 100%;
+	}
+	.order-cart{
+		background: none;
+		padding: 0;
+	}
+	.basket-wrapper{
+		padding: 15px;
+	}
 	.recommended-carousel .item{
 		padding-right: 2px;
 		padding-left: 30px;
+	}
+	.cart-block .title{
+		font-size: 18px;
+		border-left: 5px solid #ff4c36;
+		text-align: left;
+		padding-left: 7px;
 	}
 	.price-product .title,
 	.price-product .last-price{

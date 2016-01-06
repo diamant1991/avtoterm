@@ -82,18 +82,14 @@
 							<div class="mobile-btn menu-btn">
 								<div class="table-block">
 									<div class="block-vertical">
-										<a href="#">
-											<img src="images/menu-btn.png" height="16" width="16" alt="">
-										</a>
+										<a href="#" class="menu-toggle"></a>
 									</div>
 								</div>
 							</div>
 							<div class="mobile-btn search-btn">
 								<div class="table-block">
 									<div class="block-vertical">
-										<a href="#">
-											<img src="images/search-btn.png" height="16" width="16" alt="">
-										</a>
+										<a href="#" class="search-toggle"></a>
 									</div>
 								</div>
 							</div>
@@ -112,6 +108,26 @@
 		</div>
 	</header>
 	<!-- header -->
+	<div class="mobile-header visible-xs">
+		<div class="mobile-search">
+			<div class="mobile-search-block">
+				<form>
+					<input type="text" placeholder="Поиск по сайту">
+					<input type="submit" class="s-sub" value="">
+				</form>
+			</div>
+		</div>
+		<div class="mobile-menu">
+			<div class="mobile-menu-block">
+				<ul>
+					<li><a href="#">Продукция</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Компании</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- mobile header -->
 	<nav class="nav hidden-xs">
 		<div class="container">
 			<div class="row">
@@ -211,7 +227,7 @@
 					</div>
 					<div class="contacts-link">
 						<a href="#" class="get-cons-link">Получить консультацию</a>
-						<a href="#" class="card-link">Карта предприятия</a>
+						<a href="#" class="card-links">Карта предприятия</a>
 					</div>
 				</div>
 			</div>
