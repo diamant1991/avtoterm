@@ -70,4 +70,17 @@ $(document).ready(function() {
 			parent.removeClass('active');
 		}
 	});
+
+	$('.mobile-btn-toggle').click(function(e) {
+		e.preventDefault();
+		var mobileDrop = $(this).next();
+		if (mobileDrop.is(':hidden')) {
+			mobileDrop.slideDown(300);
+			$(this).addClass('active');
+		}
+		else{
+			mobileDrop.slideUp(300);
+			$(this).removeClass('active');
+		}
+	});
 });

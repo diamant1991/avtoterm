@@ -113,7 +113,7 @@
 	}
 	.profit-block{
 		font-size: 14px;
-		padding-left: 45px;
+		padding-left: 60px;
 	}
 	.profit-block:first-child{
 		width: 155px;
@@ -123,10 +123,6 @@
 	}
 	.profit-block:last-child{
 		width: 140px;
-	}
-	.profit-block .profit-text,
-	.profit-block{
-		height: 33px;
 	}
 	.slider-block{
 		padding-right: 320px;
@@ -157,6 +153,34 @@
 @media(max-width: 991px){
 	.detail-news p{
 		font-size: 12px;
+	}
+	.profit-block .top-icon-1{
+		width: 32px;
+		height: 32px;
+		background-size: contain;
+	}
+	.profit-block a:hover .top-icon-1{
+		background-size: contain;
+	}
+	.profit-block .top-icon-2{
+		width: 32px;
+		height: 32px;
+		background-size: contain;
+	}
+	.profit-block a:hover .top-icon-2{
+		background-size: contain;
+	}
+	.profit-block .top-icon-3{
+		width: 32px;
+		height: 32px;
+		background-size: contain;
+	}
+	.profit-block{
+		padding-left: 45px;
+		height: 34px;
+	}
+	.profit-block a:hover .top-icon-3{
+		background-size: contain;
 	}
 	.card-slide .carousel-inner{
 		float: left;
