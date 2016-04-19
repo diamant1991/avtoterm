@@ -11,6 +11,7 @@
 		width: 32px;
 		height: 32px;
 	}
+
 	.card-slide .carousel-inner{
 		float: none;
 		width: auto;
@@ -34,7 +35,7 @@
 	.cart-block{
 		width: 660px;
 	}
-	
+
 	.card-block{
 		width: 190px;
 	}
@@ -124,8 +125,16 @@
 	.profit-block:last-child{
 		width: 140px;
 	}
-	.slider-block{
-		padding-right: 320px;
+	.carousel-caption{
+		padding-left: 0;
+	}
+	.carousel-control.left{
+		left: 10px;
+		margin-left: 0;
+	}
+	.carousel-control.right{
+		right: 10px;
+		margin-right: 0;
 	}
 	.hidden-md{
 		display: none !important;
@@ -508,7 +517,6 @@
 		font-size: 14px;
 	}
 	.carousel-inner > .item{
-		padding: 40px 50px;
 		height: 350px;
 	}
 	.main-slider{
@@ -530,8 +538,8 @@
 		line-height: 35px;
 		font-size: 12px;
 	}
-	.slider-block{
-		padding-right: 220px;
+	.carousel-caption{
+		height: 360px;
 	}
 	.slide-img img{
 		-webkit-transform: scale(0.75);
@@ -559,7 +567,7 @@
 		width: 210px;
 	}
 	.hidden-sm{
-		display: none !important; 
+		display: none !important;
 	}
 	.product-item-block .inner-item{
 		height: 260px;

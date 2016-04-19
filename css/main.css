@@ -214,13 +214,14 @@ a {
 }
 .main-slider {
   height: 420px;
-  background: url(../images/slider.jpg) no-repeat 50%;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .slider-block {
   position: relative;
-  padding-right: 530px;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .slider-block .more {
   display: block;
@@ -292,7 +293,8 @@ a {
 }
 .carousel-control.left {
   background: url(../images/prev.png) no-repeat;
-  left: 0;
+  left: 50%;
+  margin-left: -580px;
 }
 .carousel-control.left:hover {
   background: url(../images/prev-hover.png) no-repeat;
@@ -302,6 +304,8 @@ a {
 .carousel-control.right {
   right: 0;
   background: url(../images/next.png) no-repeat;
+  right: 50%;
+  margin-right: -580px;
 }
 .carousel-control.right:hover {
   background: url(../images/next-hover.png) no-repeat;
@@ -311,6 +315,9 @@ a {
 .carousel-caption {
   position: relative;
   z-index: 3;
+  height: 420px;
+  padding-left: 90px;
+  width: 590px;
 }
 .carousel-caption .title {
   font-size: 28px;
