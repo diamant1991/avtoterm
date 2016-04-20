@@ -610,7 +610,8 @@ a {
 }
 .mobile-slider {
   height: 160px;
-  background: url(../images/mobile-slider.jpg) no-repeat 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   -o-background-size: cover;
   background-size: cover;
   padding: 0 20px;
